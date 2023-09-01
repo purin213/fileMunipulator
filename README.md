@@ -1,4 +1,4 @@
-#File Muipulator Program.
+# File Muipulator Program.
 This is a basic file manipulator program.
 This program should be called from the command line with python3 like so below
 
@@ -6,7 +6,7 @@ This program should be called from the command line with python3 like so below
 python3 main.py {command}
 ```
 
-##Below are all the applicable inputs and the required arguments.
+## Below are all the applicable inputs and the required arguments.
 
 ```
 reverse {inputPath} {outputPath}
@@ -15,14 +15,14 @@ duplicate {inputPath} {n}
 replace {inputPath} {needle} {newString}
 ```
 
-###reverse
+### reverse
 >reverses the input and outputs to the outputpath
 
-###copy
+### copy
 >simply copy and output to the outputpath
 
-###duplicate
+### duplicate
 >duplicates the content in the input file and duplicates within the input n times
 
-###replace
+### replace
 >replaces the needle in the input with the newString
